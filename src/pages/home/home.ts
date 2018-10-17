@@ -190,7 +190,7 @@ export class HomePage {
     if (this.lat === 0 || this.lon === 0) {
       const alert = this.alertCtrl.create({
         title: 'ระบุตำแหน่งของท่าน',
-        subTitle: 'ไม่พบตำแหน่งของท่าน โปรดกลับไประบุตำแหน่งของท่านก่อนรายงานสถานการณ์',
+        subTitle: 'ไม่พบตำแหน่งของท่าน โปรดกลับไปค้นหาตำแหน่งของท่านก่อนรายงาน',
         buttons: ['ตกลง']
       })
       alert.present()
